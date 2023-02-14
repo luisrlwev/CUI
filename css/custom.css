@@ -1,0 +1,278 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+#wrapper{
+    background-image: url(../images/textura-fondo.svg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.text-10 {
+    font-size: 10px !important;
+}
+
+.text-15 {
+    font-size: 15px !important;
+}
+
+.text-20 {
+    font-size: 20px !important;
+}
+
+.text-25 {
+    font-size: 25px !important;
+}
+
+.text-30 {
+    font-size: 30px !important;
+}
+
+.text-35 {
+    font-size: 35px !important;
+}
+
+.text-40 {
+    font-size: 40px !important;
+}
+
+.text-45 {
+    font-size: 45px !important;
+}
+
+.text-50 {
+    font-size: 50px !important;
+}
+
+.text-55 {
+    font-size: 55px !important;
+}
+
+.text-60 {
+    font-size: 60px !important;
+}
+
+.text-65 {
+    font-size: 65px !important;
+}
+
+.text-70 {
+    font-size: 70px !important;
+}
+
+.text-75 {
+    font-size: 75px !important;
+}
+
+.text-80 {
+    font-size: 80px !important;
+}
+
+.text-85 {
+    font-size: 85px !important;
+}
+
+.text-90 {
+    font-size: 90px !important;
+}
+
+.text-95 {
+    font-size: 95px !important;
+}
+
+.text-100 {
+    font-size: 100px !important;
+}
+
+.licenciatura-en-derecho{
+	background-image: url(../images/licenciaturas/derecho.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.licenciatura-en-educacion{
+	background-image: url(../images/licenciaturas/educacion.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.licenciatura-en-mercadotecnia{
+	background-image: url(../images/licenciaturas/mercadotecnia.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.licenciatura-en-administracion{
+	background-image: url(../images/licenciaturas/administracion.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.licenciatura-en-contaduria{
+	background-image: url(../images/licenciaturas/contaduria-y-finanzas.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.licenciatura-en-relaciones-publicas{
+	background-image: url(../images/licenciaturas/relaciones-publicas-turisticas-idiomas.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.btn-licenciaturas{
+	color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 0px;
+}
+
+.btn-licenciaturas:hover,active,focus{
+	background-color: #A2C61F70;
+	color: #fff;
+}
+
+.btn-derecho{
+    margin-top: 253px;
+    margin-left: -163px;
+}
+
+.btn-educacion{
+    margin-top: 253px;
+    margin-left: -150px;
+}
+
+.btn-mercadotecnia{
+    margin-top: 253px;
+    margin-left: -117px;
+}
+
+.btn-administracion{
+    margin-top: 253px;
+    margin-left: -117px;
+}
+
+.btn-contaduria{
+    margin-top: 253px;
+    margin-left: -141px;
+}
+
+.btn-relaciones{
+    margin-top: 253px;
+    margin-left: -85px;
+}
+
+.border-bottom-licenciaturas{
+    border-color: #000;
+    border-width: 5px;
+    border-bottom-style: dotted;
+}
+
+li{
+    color: #A2C61F;
+}
+
+li span{
+    color: #555;
+}
+
+.bg-video{
+    background-image: url(../images/videos/bg-video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-inicio{
+    border: 4px solid #fff;
+}
+
+.video{
+    width: 400px;
+    height: 400px;
+}
+
+.video-text{
+    font-size: 50px;
+    text-align: right;
+}
+
+.slider-height{
+    height: 75vh;
+}
+
+@media(max-width:768px) {
+    .video{
+        width: 100%;
+    }
+
+    .video-text{
+    font-size: 26px;
+    text-align: center;
+    }
+
+    .slider-height{
+        height: 173px;
+    }
+
+    .div-coronavirus{
+        color: #fff;
+        background-size: 100%;
+    }
+}
+
+#slider-redes, .slider-redes{
+    top: 80% !important;
+}
+
+.social-icon i{
+    color: #fff;
+}
+
+div.help-block>ul>li{
+    color: #dc3545 !important;
+}
+
+.border-radius{
+    border-radius: 5px !important;
+}
+
+.video-cui{
+    border: 5px solid #fff;
+}
+
+.whats {
+    position: fixed;
+    right: 6px;
+    bottom: 75px;
+    width: 80px;
+    z-index: 97
+}
+
+.whats img {
+    width: 100%;
+    height: auto
+}
+
+.text-cui{
+    color: #A2C61F;
+}
